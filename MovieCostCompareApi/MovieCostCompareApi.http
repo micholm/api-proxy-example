@@ -1,0 +1,6 @@
+@MovieCostCompareApi_HostAddress = http://localhost:5269
+
+GET {{MovieCostCompareApi_HostAddress}}/compare/
+Accept: application/json
+
+###

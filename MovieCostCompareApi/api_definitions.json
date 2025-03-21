@@ -1,0 +1,16 @@
+﻿[
+    {
+        "Id":  0,
+        "Name": "Cinema World",
+        "CatalogueEndpoint": "https://webjetapitest.azurewebsites.net/api/cinemaworld/movies",
+        "RecordEndpoint": "https://webjetapitest.azurewebsites.net/api/cinemaworld/movie",
+        "ApiAccessToken": "sjd1HfkjU83ksdsm3802k"
+    },
+    {
+        "Id":  1,
+        "Name": "Film World",
+        "CatalogueEndpoint": "https://webjetapitest.azurewebsites.net/api/filmworld/movies",
+        "RecordEndpoint": "https://webjetapitest.azurewebsites.net/api/filmworld/movie",
+        "ApiAccessToken": "sjd1HfkjU83ksdsm3802k"
+    }
+]
