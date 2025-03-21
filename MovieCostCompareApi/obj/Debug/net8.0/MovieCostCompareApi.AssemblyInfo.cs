@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MovieCostCompareApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+399f51c071f53630ea4e686f0eb34c670f4c5d24")]
 [assembly: System.Reflection.AssemblyProductAttribute("MovieCostCompareApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MovieCostCompareApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

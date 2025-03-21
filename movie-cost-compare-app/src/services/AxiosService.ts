@@ -1,5 +1,5 @@
 import axios, { AxiosInstance } from "axios";
-import axiosRetry, {AxiosRetry} from "axios-retry";
+import axiosRetry, { AxiosRetry } from "axios-retry";
 
 let axiosInstance: AxiosInstance;
 
@@ -9,11 +9,11 @@ const axiosBaseConfig = {
   withCredentials: false,
   headers: {
     Accept: "application/json",
-    "Content-Type": "application/json"
-  }
+    "Content-Type": "application/json",
+  },
 };
 
-export const getAxios = (retries:number=5, image:boolean=false) => {
+export const getAxios = (retries: number = 5, image: boolean = false) => {
   if (axiosInstance) {
     return axiosInstance;
   }
@@ -21,11 +21,14 @@ export const getAxios = (retries:number=5, image:boolean=false) => {
   if (image) {
     conf.headers = {
       Accept: "application/json",
-      "Content-Type": "image/jpeg"
-    }
+      "Content-Type": "image/jpeg",
+    };
   }
   axiosInstance = axios.create(conf);
 
-  axiosRetry(axiosInstance, {retries: retries, retryDelay: axiosRetry.exponentialDelay});
+  axiosRetry(axiosInstance, {
+    retries: retries,
+    retryDelay: axiosRetry.exponentialDelay,
+  });
   return axiosInstance;
 };

@@ -28,3 +28,4 @@ C:\Users\mholm\bin\movie-cost-compare\MovieCostCompareApi\obj\Debug\net8.0\refin
 C:\Users\mholm\bin\movie-cost-compare\MovieCostCompareApi\obj\Debug\net8.0\MovieCostCompareApi.pdb
 C:\Users\mholm\bin\movie-cost-compare\MovieCostCompareApi\obj\Debug\net8.0\MovieCostCompareApi.genruntimeconfig.cache
 C:\Users\mholm\bin\movie-cost-compare\MovieCostCompareApi\obj\Debug\net8.0\ref\MovieCostCompareApi.dll
+C:\Users\mholm\bin\movie-cost-compare\MovieCostCompareApi\obj\Debug\net8.0\MovieCostCompareApi.sourcelink.json
